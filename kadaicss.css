@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body {
+  background-color: #EEFF84; //これは赤色
+}
+
+
+
+.image-vw {
+	width : 20vw ; 
+}
+
+.image-vw3 {
+	width : 29vw ; 
+}
+
+video {
+	height: 40%;
+  width: 70%;
+}
+
+.image-vw2 {
+  width : 40vw ; 
+}
+
+.image-vw4 {
+  width : 50vw ; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1b2538;
+    color: #DD2225;
+}
+li {
+	float: left;
+	border-right: 1px solid #bbbbbb;
+}
+li:last-child {
+	border-right: none;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 80px;
+	text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #a9bce2;
+    color: #F61519;
+}
+.active {
+	background-color: #da3c41;
+}
+body div {
+    color: #FD0B0B;
+}
+
+@media screen{
+}
